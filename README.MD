@@ -267,3 +267,11 @@ cv2.destroyAllWindows()
 ```
 
 ![alt text](image-3.png)
+
+## REFERENCE
+
+- **<https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c>**
+
+- **<https://medium.com/@kenancan.dev/building-opencv-gstreamer-on-windows-a-8-hour-battle-bdb3211aa834>**
+
+- **<https://stackoverflow.com/questions/78584323/building-opencv-with-gstreamer-on-windows-copy-to-other-computer-without-instal>**

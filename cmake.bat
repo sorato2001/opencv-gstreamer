@@ -1,0 +1,29 @@
+cmake ^
+-S F:/Documents/A-SoRAtO/graduated/Project/Tool/opencv-gstream/opencv ^
+-B F:/Documents/A-SoRAtO/graduated/Project/Tool/opencv-gstream/opencvBuild_3.12.0 ^
+-D BUILD_opencv_python3=ON ^
+-D CMAKE_BUILD_TYPE=Release ^
+-D OPENCV_EXTRA_MODULES_PATH=F:/Documents/A-SoRAtO/graduated/Project/Tool/opencv-gstream/opencv_contrib/modules ^
+-D BUILD_SHARED_LIBS=ON ^
+-D BUILD_opencv_world=ON ^
+-D WITH_GSTREAMER=ON ^
+-D BUILD_opencv_gapi=ON ^
+-D BUILD_TESTS=OFF ^
+-D BUILD_PERF_TESTS=OFF ^
+-D BUILD_EXAMPLES=OFF ^
+
+-D GSTREAMER_INCLUDE_DIR=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/include/gstreamer-1.0 ^
+-D GSTREAMER_LIBRARY_DIR=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib ^
+-D GSTREAMER_DIR=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64 ^
+-D GSTREAMER_INCLUDE_DIR=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/include/gstreamer-1.0 ^
+-D GSTREAMER_LIBRARY=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib/gstreamer-1.0.lib ^
+-D GSTREAMER_APP_LIBRARY=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib/gstapp-1.0.lib ^
+-D GSTREAMER_BASE_LIBRARY=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib/gstbase-1.0.lib ^
+-D GSTREAMER_VIDEO_LIBRARY=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib/gstvideo-1.0.lib ^
+-D GLIB2_LIBRARY=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib/glib-2.0.lib ^
+-D GOBJECT2_LIBRARY=F:/software/GStreamerMSVC/develop/1.0/msvc_x86_64/lib/gobject-2.0.lib ^
+-D OPENCV_PYTHON3_INSTALL_PATH=F:/software/Anaconda/envs/mcp_langchain_yolo_gstream_cmake/Lib/site-packages
+-D PYTHON3_EXECUTABLE=F:/software/Anaconda/envs/mcp_langchain_yolo_gstream_cmake/python.exe ^
+-D PYTHON3_LIBRARY=F:/software/Anaconda/envs/mcp_langchain_yolo_gstream_cmake/libs/python312.lib ^
+-D PYTHON3_INCLUDE_DIR=F:/software/Anaconda/envs/mcp_langchain_yolo_gstream_cmake/Include ^
+-D PYTHON3_PACKAGES_PATH=F:/software/Anaconda/envs/mcp_langchain_yolo_gstream_cmake/Lib/site-packages ^
